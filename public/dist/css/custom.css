@@ -1,0 +1,218 @@
+.full_content{min-height: 100vh;}
+body {
+  font-size: 14px;
+};
+html{height: 100%}
+html,body{height: 100vh;min-height: 100vh !important;}
+p{text-align: justify;}
+.banner{margin:-18px 0 10px 0;
+        height: 280px;
+        width: 100%;
+background: url(programming.jpg);
+  background-size: cover;
+  position: relative;
+  
+}
+
+/*Home background banner*/
+
+.home_banner{margin:-18px 0 0px;
+        height: 100vh;
+        width: 100%;
+background: url(programming.jpg);
+  background-size: cover;
+  position: relative;
+  vertical-align: middle;
+  position:relative;
+  
+}
+
+.home_banner h2{
+    position: absolute;
+    top:28%;
+    left: 39%;
+    color: whitesmoke;
+    font-size: 2em;
+    display: block;
+}
+.home_banner h4{
+    position: absolute;
+    top:42%;
+    left: 46%;
+    color: whitesmoke;
+    font-size: 1em;
+}
+.banner h2{
+    position: absolute;
+    top:50%;
+    left: 40%;
+    color: whitesmoke;
+    font-size: 2em;
+}
+.banner h4{
+    position: absolute;
+    top:70%;
+    left: 46%;
+    color: whitesmoke;
+    font-size: 1em;
+}
+.darken {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(programming.jpg);
+  
+}
+
+.f-nav{  /* To fix main menu container */
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width:100%;
+    left: 0;
+}
+.header_icon{max-width: 20px;float: left;margin-right:6px;}
+.my_story{margin-top:0px;}
+
+.personal_image{margin:auto;display: block;margin-bottom: 5px;}
+.full_footer{background-color: black;
+            min-height: 10px;
+           
+           /*position: absolute;*/
+           width: 100%;
+           color: white;
+           padding:20px 0;
+}
+
+.left_footer{float:left;
+padding:28px 0px;
+
+}
+.right_footer{float: right;
+
+
+}
+
+/*socia images*/
+
+.social-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.social-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.social-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+
+/*CONTACT ME PAGE*/
+.contact_social{
+    margin-left: -16px;
+}
+
+/*PORTFOLIO PAGE*/
+.full_portfolio a{position:relative;}
+.single_caption .portfolio-title{ display: none;}
+.single_caption:hover .portfolio-title{ display:inline-block; }
+.portfolio-title{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    color:whitesmoke;
+    top:0px;
+    left:0px;
+    border-radius: 2px;
+    display:inline-block;
+    text-align: center;
+}
+#something{position:absolute;
+top:50%;
+left:50%;
+margin-top:-6px;
+margin-left: -47px;
+}
+.single_caption a.thumbnail{margin-bottom:5px !important;}
+.thumbnail_button {
+    width: 138px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*BLOG PAGE*/
+#tfheader{
+		background-color:#e7e7e7;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+    .recent_posts{background-color: #e7e7e7;padding: 8px;margin-bottom: 10px;}    
+    .blog-icon{ margin-right:6px;float: left;}
+    .blog-icon-description{margin-right: 15px; float: left;}
+@media screen and (max-width : 450px)
+{
+    .home_banner h2{font-size: 1em;left:42%;}
+  .banner h2{font-size: 1em;left:42%;}
+  .left_footer{float: none;text-align: center;}
+  .right_footer{float: none;text-align: center;margin:0 auto;width:83%;}
+  .contact_social .social-popout{margin-bottom: 30px;}
+}
